@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "next floor",
+  "description": "switch to next/previous page (based on number in url) via ctrl+shift+a/x ",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["t.js"]
+    }
+  ],
+  "icons": { "128": "extension/i.png" }
+}
